@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>"
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    "
   </head>
   <body>
     <div class="weather-app">
@@ -24,29 +25,23 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 id ="selected-city" class="weather-app-city"></h1>
+            <h1 id="selected-city" class="weather-app-city"></h1>
             <p class="weather-app-details">
-              <span id="time"></span>, <span id="description">scattered flurries</span> <br />
-              Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
+              <span id="time"></span>,
+              <span id="description">scattered flurries</span> <br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="weather-app-temp-container">
             <div id="icon"></div>
-            <div class="weather-app-temp-value" id="temperature">
-            </div><div class="weather-app-unit">°C</div>
-        </div>
-</main>
-<div class="weather-forecast">
-          <div class="row">
-            <div class="col-2">
-              <div class="weather-forecast-date">Thu</div>
-              <img src="http://openweathermap.org/img/wn/50d@2x.png" alt="" width="42"><br />
-              <div class="weather-forecast-temp">
-                <span class="weather-forecast-temp-max">18°</span> <span class="weather-forecast-temp-min">12°</span></div>
-            </div>
+            <div class="weather-app-temp-value" id="temperature"></div>
+            <div class="weather-app-unit">°C</div>
           </div>
         </div>
-        <footer>          
+        <div class="weather-forecast" id="forecast"></div>
+      </main>
+      <footer>
         This project was built by
         <a href="https://github.com/gwiz90" target="_blank">Gina Shin</a>,
         open-sourced on
