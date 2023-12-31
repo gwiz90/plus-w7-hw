@@ -1,6 +1,6 @@
 body {
   background-color: #eaf6f6;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -23,6 +23,7 @@ header {
 
 .search-form-input {
   background-color: #eaf6f6;
+  font-family: "Raleway", sans-serif;
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -31,6 +32,7 @@ header {
 
 .search-form-button {
   background-color: #66bfbf;
+  font-family: "Raleway", sans-serif;
   padding: 15px 20px;
   border: none;
   font-size: 16px;
@@ -124,7 +126,8 @@ main {
   justify-content: center;
 }
 
-.weather-forecast-temperature {
+.weather-forecast-temp {
+  color: gray;
   padding: 0 10px;
 }
 
@@ -133,6 +136,7 @@ main {
 }
 
 footer {
+  font-family: "Raleway", sans-serif;
   border-bottom: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
   text-align: center;
